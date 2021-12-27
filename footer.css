@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+footer{
+  color: #d9d9d9;
+  font-family: 'Poppins', sans-serif;
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  color: #202020;
+}
+footer{
+  width: 100%;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  color:#ffffff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px !important;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+footer .center .content .fas{
+  font-size: 1.4375rem !important;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem !important;
+  font-weight: 500 !important;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+
+.right ul li{
+  list-style:none;
+}
+
+.right  ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.right ul li a{
+	font-size: 16px !important;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300 !important;
+	display: block;
+	transition: all 0.3s ease;
+}
+.right ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem !important;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
